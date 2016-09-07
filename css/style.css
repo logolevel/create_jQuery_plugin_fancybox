@@ -1,0 +1,23 @@
+.container {
+	max-width: 960px;
+	margin: 0 auto;
+}
+.fancybox-modal {
+	position: absolute;
+	width: 800px;
+	height: 600px;
+	top: 50%;
+	left: 50%;
+	margin: -300px 0 0 -400px;
+	text-align: center;
+	background-color: #333;
+}
+.fancybox-overlay {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: #000;
+	opacity: 0.2;
+}
